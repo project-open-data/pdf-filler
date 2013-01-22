@@ -5,6 +5,16 @@ PDF Filler is a RESTful service (API) to aid in the completion of existing PDF-b
 
 PDF Filler works with virtually any unencrypted PDF, supporting both fillable (e.g., PDFs with pre-defined entry fields) and non-fillable (e.g., scanned PDFs) forms. Simply pass it the URL to any publicly hosted PDF. PDF Filler can even automatically create the markup necessary to embed an HTML form in an existing webpage.
 
+What Problem This Solves
+------------------------
+
+It is frequently most convenient to collect data via a web-based form, but often it is necessary to store and display that data within a prescribed, print-based page layout.
+
+How This Solves It
+------------------
+
+PDF Filler passes form values into a PDF, storing its values within form fields and returning the completed PDF. It can also generate HTML forms based on the form fields within a PDF form.
+
 Features
 -------
 
